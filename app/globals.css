@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .neon-cyan {
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+  }
+  .hex-glow {
+    filter: drop-shadow(0 0 15px currentColor);
+  }
+}

@@ -4,9 +4,22 @@
 
 @layer utilities {
   .neon-cyan {
-    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+    box-shadow: 
+      0 0 10px #22d3ee,
+      0 0 20px #22d3ee,
+      0 0 40px #22d3ee;
   }
   .hex-glow {
-    filter: drop-shadow(0 0 15px currentColor);
+    filter: drop-shadow(0 0 20px currentColor);
+    transition: all 0.3s ease;
   }
+  .hex-glow:hover {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 30px currentColor);
+  }
+}
+
+body {
+  background: #09090b;
+  color: white;
 }

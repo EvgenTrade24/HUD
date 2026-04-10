@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',           // ← это делает сайт статическим
+  output: 'export',           // обязательно для статического деплоя
   images: {
     unoptimized: true
   },

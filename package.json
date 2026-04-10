@@ -1,0 +1,23 @@
+{
+  "name": "nec-trading-hud",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.441.0",
+    "html2canvas": "^1.4.1",
+    "@tonconnect/ui-react": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5"
+  }
+}
